@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bhanu's Cash Register</title>
+  </head>
+  <body>
+    <header>
+      <h1>CASH REGISTER</h1>
+      <p>Does calculating change bother you?</p>
+      <p>Here's a webapp to make your life a bit <strong>EASIER</strong>.</p>
+    </header>
+    <main>
+      <div class="main">
+        <div class="bill_input">
+          <label for="bill_amount">Bill Amount</label>
+          <input type="number" id="bill_amount" />
+        </div>
+        <button class="hide next_btn">Next</button>
+        <div class="cash_input hidden">
+          <label for="cash_amount">Cash Given</label>
+          <input type="number" id="cash_amount" />
+        </div>
+        <button class="hidden_btn check_btn">Check</button>
+        <h2>Balance Amount</h2>
+        <table>
+          <tr>
+            <th>Notes</th>
+            <th>2000</th>
+            <th>500</th>
+            <th>100</th>
+            <th>20</th>
+            <th>10</th>
+            <th>5</th>
+            <th>1</th>
+          </tr>
+          <tr>
+            <td>No. of Notes</td>
+            <td class="notes_2000 no_of_notes">0</td>
+            <td class="notes_500 no_of_notes">0</td>
+            <td class="notes_100 no_of_notes">0</td>
+            <td class="notes_20 no_of_notes">0</td>
+            <td class="notes_10 no_of_notes">0</td>
+            <td class="notes_5 no_of_notes">0</td>
+            <td class="notes_1 no_of_notes">0</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>Thank you for visiting this website.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

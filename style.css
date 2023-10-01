@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  /* border: 2px solid green; */
+}
+
+header {
+  background-color: #3a015c;
+  padding: 3rem 0 1rem 0;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* main-section */
+
+main {
+  display: flex;
+  max-width: 120rem;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+
+.main {
+  margin: 5rem auto 12rem auto;
+  width: 65%;
+  /* border: 2px solid red; */
+}
+
+label {
+  display: block;
+  font-size: 2.3rem;
+  margin-bottom: 1.2rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+button {
+  border: none;
+  background-color: #3a015c;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 0.4rem;
+  font-size: 1.7rem;
+  box-shadow: 5px 5px 0 #28033e;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:active {
+  transform: translateX(5px) translateY(5px);
+  box-shadow: 0 0 0 #28033e;
+}
+
+.cash_input {
+  margin-top: 1.2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 4rem 0rem 2rem 0;
+}
+
+table {
+  font-size: 2rem;
+  /* border: 2px solid red; */
+  display: block;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  /* width: 100%; */
+  height: 5rem;
+}
+
+th {
+  width: 10%;
+  background-color: #3a015c;
+  height: 5rem;
+  color: white;
+}
+
+.hidden,
+.hidden_btn {
+  display: none;
+  transition: 0.2s;
+}
+
+/* footer */
+
+footer {
+  background-color: #3a015c;
+  color: white;
+  height: 5.5rem;
+  /* position: relative; */
+  position: absolute;
+  bottom: 0;
+  /* left: 44%; */
+  width: 100%;
+  /* margin-top: 10rem; */
+}
+
+footer p {
+  /* margin: auto; */
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  /* right: 50%; */
+  transform: translate(-50%, -50%);
+}
+
+/* hover properties*/
+
+button:hover {
+  cursor: pointer;
+}
+
+/* media query */
+
+@media all and (max-width: 400px) {
+  table {
+    font-size: 1.3rem;
+  }
+}
